@@ -1,0 +1,17 @@
+#container {
+}
+
+.gridDiv {
+  display: grid;
+  grid-template-columns: repeat(16, 30px [col-start]);
+  justify-content: center;
+  align-items: center;
+  border: 1px blue solid;
+  width: auto;
+  flex: 1;
+}
+.boxElements {
+  border: 1px solid sandybrown;
+  height: 30px;
+  width: 30px;
+}
